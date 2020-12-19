@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{4AF1218D-899F-44AF-87B1-F82980B55F22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeAutofac.GetStarted", "src\Autofac\PracticeAutofac.GetStarted\PracticeAutofac.GetStarted.csproj", "{64229C0A-BABD-4D15-8709-9A8F905BD057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{07553C2D-F6D4-4BEF-B8F7-8A4F5E1D95A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{358E1250-56D3-47E9-A8E0-5001A885756C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeAutofac.GetStarted.Test", "test\Autofac\PracticeAutofac.GetStarted.Test\PracticeAutofac.GetStarted.Test.csproj", "{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64229C0A-BABD-4D15-8709-9A8F905BD057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64229C0A-BABD-4D15-8709-9A8F905BD057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64229C0A-BABD-4D15-8709-9A8F905BD057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64229C0A-BABD-4D15-8709-9A8F905BD057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64229C0A-BABD-4D15-8709-9A8F905BD057} = {4AF1218D-899F-44AF-87B1-F82980B55F22}
+		{358E1250-56D3-47E9-A8E0-5001A885756C} = {07553C2D-F6D4-4BEF-B8F7-8A4F5E1D95A6}
+		{CF168B56-CAFF-4F3D-80BF-8E4224ED2E6C} = {358E1250-56D3-47E9-A8E0-5001A885756C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C836897E-71B1-43C1-87CE-13FA167FD318}
+	EndGlobalSection
+EndGlobal
